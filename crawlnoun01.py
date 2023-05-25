@@ -9,6 +9,9 @@ with open("german_word_list.txt", "r", encoding="utf-8") as f:
 
 found_words = []
 
+
+existing_words = []
+
 # Connect to the database
 conn = sqlite3.connect("german_words.db")
 cursor = conn.cursor()
