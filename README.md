@@ -1,3 +1,3 @@
 # PythonWikiCrawler
-A python crawler, that crawls for german words from Wiktionary and stores them in a database.
-Uses spaCy to retrieve parts-of-speech information on the crawled words.
+german_words.db is the main database.
+crawlnoun02.py is the latest version.
