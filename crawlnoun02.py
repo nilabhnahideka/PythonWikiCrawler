@@ -28,7 +28,7 @@ else:
     found_words.extend(existing_words)
 
 # Define the batch size and the starting index for the current batch
-batch_size = 1000
+batch_size = 10000
 start_index = 0
 
 try:
